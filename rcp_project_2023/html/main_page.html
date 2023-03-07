@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="../css/rcp.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+  </head>
+  <body>
+    <div class="page_inside">
+      <section class="top_container">
+        <section id="left_icons">
+          <button type="button">
+            <img src="../svg/home.svg" alt="home" />
+          </button>
+          <button type="button" id="back">
+            <img src="../svg/back.svg" alt="back" />
+          </button>
+          <button type="button">
+            <img src="../svg/garbage.svg" alt="garbage" />
+          </button>
+        </section>
+        <section id="search_window">
+          <input
+            type="text"
+            id="search_window_input"
+            placeholder="Search Here"
+          />
+        </section>
+        <section id="right_icons">
+          <button><img src="../svg/new_recipe.svg" /></button>
+          <button><img src="../svg/new_file.svg" /></button>
+          <button><img src="../svg/more.svg" /></button>
+        </section>
+      </section>
+      <div class="mid_container">
+        <div id="to_check"></div>
+      </div>
+    </div>
+  </body>
+</html>
